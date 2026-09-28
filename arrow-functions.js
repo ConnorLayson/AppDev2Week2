@@ -68,12 +68,6 @@ const evaluateScores = (score1, score2, score3) => {
     };
 };
 
-
-
-
-
-// Exercise 14: Write an arrow function called calculateSalePrice that calculates the sale price of an item. 
-// calculateSalePrice should take a product name and price as arguments, add a 20% discount, and return formatted string in the format "Product: [name] - Sale Price: $[price with markup]"
 const calculateSalePrice = (name, price) => {
     discount = price * 0.2;
     return `Product: ${name} - Sale Price: $${price - discount}`;
